@@ -51,7 +51,8 @@
 
   	/* Home */
       .main {
-        min-width: 1080px;
+        min-width: 980px;
+        max-width: 1280px;
         padding: 70px;
         margin: 0 auto;
       }
@@ -137,7 +138,7 @@
 
 
   	/* --- Research ---*/
-  	.researchList{width: 90%; min-width: 1080px; margin: 0 auto;font-style: normal;box-sizing: border-box;}
+  	.researchList{width: 90%; min-width: 980px; max-width: 1280px; margin: 0 auto;font-style: normal;box-sizing: border-box;}
     .researchList .total {color: #01093F;line-height: 200%; padding: 50px 0}
     .researchList .total h3 {font-family: "playfair display", serif;font-weight: 600;font-size: 34px;border-bottom: 5px solid #01093F;padding-left: 10px;}
     .researchList .total p {font-family: "playfair display", serif;font-size: 26px;padding: 30px 10px 0 20px;}
@@ -151,7 +152,9 @@
  
   
   	/* --- Pepple --- */
-
+.peopleWrap{
+  min-width: 980px; max-width: 1280px; margin: 0 auto;
+}
 .honors {
   width: 100%;
   box-sizing: border-box;
@@ -317,7 +320,7 @@ table.section{
   	/* --- Publications ---*/
   .publicationsList {
     width: 90%;
-    min-width: 1080px;
+    min-width: 980px; max-width: 1280px; 
     margin: 50px auto;
     position: relative;
   }
@@ -360,7 +363,7 @@ table.section{
 
   	
   	/* --- News ---*/
-  	.newsList{width: 1080px; margin: 0 auto; overflow: hidden;}
+  	.newsList{min-width: 980px; max-width: 1280px;  margin: 0 auto; overflow: hidden;}
   	.newsList h3{color: #FF8D11;font-size:72px; text-align: center; padding: 30px;}
   	.newsList dl{overflow: hidden; padding: 20px 0; width: 33%; float: left;}
   	.newsList dt{text-align: center;width: 360px; height: 230px;overflow: hidden;margin: 0 auto;}
@@ -385,6 +388,7 @@ table.section{
 	/* ---- Openings --- */
 	.openings {
      width: 90%;
+     min-width: 980px; max-width: 1280px; 
      margin: 50px auto;
 }
  .openings .box{
