@@ -255,13 +255,22 @@
   font-size: 28px;
   line-height: 32px;
   padding: 15px 0 10px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .memebers_info .item .position {
   color: #7D82A1;
   padding-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .memebers_info .item .email {
   color: #A5A7B1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .former{
   margin-top: 50px;
@@ -306,15 +315,32 @@ table.section{
 .section th {
   color: #E58811;
   font-size: 20px;
+  min-width: 120px;
+  max-width: 240px;
 }
 .section td {
+  min-width: 120px;
+  max-width: 240px;
   text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  white-space: pre-wrap;
 }
 .section th:nth-child(1),.section td:nth-child(1){
   text-align: left;
+}
+.person img {
+  width: 318px;
+  height: 318px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50%;
+}
+.memebers_info .item dt img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50%;
+  border: #001394 solid 2px;
 }
 
   	/* --- Publications ---*/
