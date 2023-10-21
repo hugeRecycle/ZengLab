@@ -153,8 +153,7 @@
 .peopleWrap{
   min-width: 980px; max-width: 1280px; margin: 0 auto;
 }
-.honors {
-  width: 100%;
+.PIinfo {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -165,32 +164,22 @@
 .person {
   width: 370px;
   margin-right: 40px;
+  text-align: center;
 }
 .person .name {
   width: 100%;
   font-size: 30px;
   font-weight: 700;
-  line-height: 34px;
-  text-align: center;
-  padding: 30px 0 20px 0;
+  line-height: 200%;
+  padding-top: 30px;
 }
-.person .position {
+.person p {
   width: 100%;
   font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
+  line-height: 200%;
   color: #7d82a1;
-  padding-bottom: 20px;
 }
-.person .email {
-  width: 100%;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
-  color: #a5a7b1;
-}
+
 .introdction {
   flex: 1;
   font-size: 18px;
@@ -203,27 +192,22 @@
 }
 
 .memebers_info {
-  width: 100%;
   margin-top: 100px;
 }
 .memebers_info .title {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  width: 100%;
   border-bottom: 5px solid #01093f;
   padding-bottom: 10px;
 }
 .memebers_info .title h4 {
   font-family: "Libre";
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 36px;
 }
 .memebers_info .title p {
   color: #e58811;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 18px;
 }
 .memebers_info .line {
   display: flex;
