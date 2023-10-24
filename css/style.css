@@ -36,7 +36,6 @@
   	.footerBox a{color: #EBECF0; font-family: MicrosoftYaHei; text-decoration: none;}
 
 
-
   	#goTop{font-size: 40px;position: fixed; bottom: 15px; right: 5px; cursor: pointer;}
 
   	/*menu*/
@@ -93,8 +92,6 @@
       /* home news */
       .news {
         width: 40%;
-        height: 285px;
-        padding-bottom: 30px;
         margin: 0 auto;
         text-align: justified;
         background: rgba(203, 202, 209, 0.21);
@@ -110,17 +107,12 @@
         color: #01093f;
       }
       .news .cont {
-        padding: 20px 40px 20px 20px;
+        padding: 0 40px 10px;
+        line-height: 150%;
       }
-      .news .cont p {
-        font-family: "Timmana", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 120%;
-        text-decoration-line: underline;
-        color: #e58811;
-      }
+      .news .cont a{font-size: 18px; color: #7d82a1;text-decoration: none;}
+      .news .cont img{width: 400px; display: block; margin: 0 auto;}
+      .news .cont p{padding: 5px;}
       .to_research {
         width: 325px;
         padding-bottom: 10px;
@@ -132,7 +124,6 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 30px;
-        text-decoration: underline;
         color: #7d82a1;
       }
 
@@ -384,7 +375,7 @@ table.section{
     .detailWrap h3{font-size: 32px;color: #333;font-weight: 700;position: relative;padding: 10px 0 ;}
     .detailWrap .time{margin: 0 14px; color: #999;}
     .detailWrap .cont{padding: 20px 0 80px 0}
-    .detailWrap .cont img{display: block; margin: 0 auto;padding: 20px; max-width: 680px;}
+    .detailWrap .cont img{display: block; margin: 0 auto;padding: 20px 0; max-width: 1080px;}
 
 	/* ---- Openings --- */
 	.openings {
