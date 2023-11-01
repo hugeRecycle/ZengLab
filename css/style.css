@@ -71,7 +71,6 @@
       .welocome h3.title {
         font-family: inherit;
         line-height: 50px;
-        text-align: justified;
         font-size: 42px;
         font-weight: 800;
         padding: 20px 40px;
@@ -86,21 +85,19 @@
         line-height: 180%;
         font-weight: 400;
         letter-spacing: 0em;
-        text-align: justified;
+        text-align: justify;
       }
 
       /* home news */
       .news {
         width: 35%;
         margin: 0 auto;
-        text-align: justified;
         background: rgba(203, 202, 209, 0.21);
         float: right;
       }
       .news h3.title {
         font-family: inherit;
         line-height: 50px;
-        text-align: jusjustifiedtify;
         font-size: 42px;
         font-weight: 800;
         padding: 20px;
