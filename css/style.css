@@ -133,7 +133,7 @@
 
   	.researchList dl{overflow: hidden; padding: 30px 20px; font-style: normal; color: #001394;line-height: 200%;}
     .researchList dt {font-family: inherit;font-size: 32px;border-bottom: 5px solid #001394;padding-left: 20px;}
-	  .researchList dl img {width: 320px; float: right; border-radius: 15px; padding:0 25px 25px 25px;}
+	  .researchList dl img {width: 320px; float: right; border-radius: 35px; margin:0 25px 25px 25px;}
 	  .researchList dl dd {text-align: justify; padding-top: 30px;padding-left: 20px;font-family: inherit;font-size: 22px;}
  
   
@@ -336,18 +336,17 @@ table.section{
      font-size: 18px;
   }
 
-  .publicationsList li em {
+  .publicationsList li i {
     font-weight: 700;
     color: #d72405;
   }
   .publicationsList li a {
     color: #0a3cec;
   }
-  .publicationsList li b {
-    display: block;
+  .publicationsList li strong {
     font-weight: 700;
   }
-   .publicationsList li i {
+   .publicationsList li em {
     font-size: 18px;
   }
 
